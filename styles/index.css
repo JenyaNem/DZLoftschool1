@@ -1,0 +1,99 @@
+.sidebar .main_menu .first{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #3ba8c0;
+	color: #f9fafb;
+}
+.article .my_info, .my_info_next{
+	background-color: #eff3f7;
+	border-radius: 5px;	
+}
+.article .my_info{
+	margin-bottom: 25px;
+	padding-bottom: 35px;
+}
+.article .title{
+	display: inline-block;
+	float: left;
+	padding: 17px;
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	color: #3ba8c0;
+	border-bottom: solid 2px #3ba8c0;
+	margin-bottom: 20px;
+}
+.article .after{
+	content: ".";
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.my_info img{
+	float: left;
+	margin-left: 21px;
+	margin-right: 38px;
+	width: 199px;
+	height: 198px;
+}
+.my_info .text{
+	font-family: 'fira_sansbook';
+	font-size: 18px;
+	color: #37424d;
+	line-height: 37px;
+}
+.my_info .text span{
+	font-family: 'fira_sansmedium';
+	font-size: 17px;
+	color: #4a545d;
+	margin-right: 8px;
+}
+.my_info .skill{
+	float: left;
+}
+.my_info ul{
+	list-style-type: none;
+	font-family: 'fira_sansbook';
+}
+.my_info ul li{
+	display: inline-block;
+	height: 17px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-image: url(../images/skill.png);
+	border-radius: 3px;
+	font-family: 'proxima_nova_condensedSBd';
+	font-size: 14px;
+	color: #FFF;
+}
+.article .my_info_next{ 
+	margin-bottom: 24px;
+	padding-bottom: 40px;
+}
+.article .my_info_next .title{
+	margin-bottom: 35px;
+}
+.my_info_next img{
+	float: left;
+	margin-left: 65px;
+	margin-right: 31px;	
+}
+.my_info_next p{
+	font-family: 'fira_sansbook';
+	font-size: 17px;
+	color: #4a545d;	
+}
+.my_info_next span{
+	font-family: 'fira_sanslight';
+	font-size: 15px;
+	color: #687078;
+}
+.my_info_next .text{
+	margin-bottom: 25px;
+}
+.my_info_next .course{
+	margin-left: 71px;
+	margin-right: 39px;	
+}

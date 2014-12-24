@@ -1,0 +1,78 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои роботы</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+    <link rel="stylesheet" type="text/css" href="styles/myworks.css">
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/js_myworks.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<div class="header">
+		<a href="index.html"><img src="images/logo.png" alt="NEMEROVCHENKO"></a>
+        <ul class="socials_icon">
+            <li class="vkontakte"><a href="http://vk.com/id33166074" target= "_blank"></a></li>
+            <li class="twitter"><a href="#"></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/johny.cage.1614" target= "_blank"></a></li>
+            <li class="github"><a href="#"></a></li>
+		</ul>
+	</div>
+
+    <div class="linegradient"></div>
+    <div class="background">
+    	<div class="content">
+			<div class="sidebar">
+            	<ul class="main_menu">
+                	<a href="index.html"><li>Обо мне</li></a>
+                    <a href="myworks.html"><li class="first">Мои работы</li></a>
+                    <a href="mailme.html"><li>Связаться со мной</li></a>
+                </ul>
+                <ul class="contacts">
+                	<li>Контакты</li>
+                    <li class="mail"><img src="images/mail.png"><a href="nemerov4enko@gmail.com">nemerov4enko@gmail.com</a></li>
+                    <li class="tel"><img src="images/tel.png"><a href="skype:[+38(066)9644291]?call">+380669644291</a></li>
+                    <li class="skype"><img src="images/skype.png"><a href="skype:[Johny_Cage4]">Johny_Cage4</a></li>
+                </ul>
+            </div>
+
+			<div class="article">                      
+               <p class="title">Мои работы</p>
+               <ul class="works">
+               		<li><p class="picture_site"></p><a href="#">site</a></li>
+                    <li><p class="picture_site"></p><a href="#">site</a></li>
+               		<li><p class="picture_site"></p><a href="#">site</a></li>
+                    <li><p class="picture_site"></p><a href="#">site</a></li>
+                    <li><p class="picture_site"></p><a href="#">site</a></li>
+                    <a href="#" id="addProject"><li class="add"><img src="images/add_pro.png" alt="House_icon">Добавить проект</li></a>
+               </ul>
+            </div>
+		</div>
+    </div> 
+    <div class="linegradient"></div>
+	<div class="footer">
+		<p>© 2014. Это мой сайт, пожалуйста, не копируйте и не воруйте его</p>
+	</div>
+
+    <div id="modal_window">
+    	<p class="addPro">Добавление проекта</p>
+    	<span id="modal_close"></span>
+    <p class="block">Название проекта<input type="text" maxlength="40" name="mod_name" placeholder="Введите название" required ></p>
+    <p class="block">Картинка
+    	<input class="file_input_text" name="mod_img_text" id="fileName" placeholder="Загрузите изображение" readonly><p class="file_input_box"></p>
+        <input type="file" name="mod_image" required class="file_input"></p>
+    <p class="block">URL проекта<input type="url" name="mod_url" placeholder="Добавьте ссылку" required></p>
+    <p class="block">Описание<textarea name="mod_text" placeholder="Пара слов о Вашем проекте"></textarea></p>
+    <button type="submit">Добавить</button>
+    </div>
+    <div id="overlay"></div>
+</body>
+</html>

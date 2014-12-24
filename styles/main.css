@@ -1,0 +1,167 @@
+body {
+	background-color: #ffffff;
+}
+.header, .footer {
+	min-width: 1200px;
+	margin: auto;
+	background-color: #eff3f7;	
+}
+.header {
+	padding: 30px 110px 89px;
+}
+.header img {
+	float: left;
+}
+.socials_icon {
+	margin-top: 5px;
+	position: relative;
+	float: right;
+}
+.socials_icon li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+.socials_icon li, .socials_icon a {
+	display: block;
+	height: 46px;
+}
+.github {
+	right: 0px;
+	width: 46px;
+	background: url('../images/github.png');
+}
+.facebook {
+	right: 71px;
+	width: 46px;
+	background: url('../images/facebook.png');
+}
+.twitter {
+	right: 142px;
+	width: 46px;
+	background: url('../images/twitter.png');
+}
+.socials_icon li.vkontakte {
+	right: 213px;
+	width: 46px;
+	height: 46px;
+	background: url('../images/vk.png');
+}
+.github a:hover {
+	background: url('../images/github_hover.png');
+}
+.facebook a:hover {
+	background: url('../images/facebook_hover.png');
+}
+.twitter a:hover {
+	background: url('../images/twitter_hover.png');
+}
+.vkontakte a:hover {
+	height: 46px;
+	background: url('../images/vk_hover.png');
+}
+.linegradient {
+	min-width: 1200px;
+	margin: auto;
+	height: 3px;
+	background: -webkit-linear-gradient(right, #eff3f7 0%,#1c667a 50%,#eff3f7 100%);
+	background: -moz-linear-gradient(right, #eff3f7 0%,#1c667a 50%,#eff3f7 100%);
+	background: -o-linear-gradient(right, #eff3f7 0%,#1c667a 50%,#eff3f7 100%);
+	background: -ms-linear-gradient(right, #eff3f7 0%,#1c667a 50%,#eff3f7 100%);
+	background: linear-gradient(right, #eff3f7 0%,#1c667a 50%,#eff3f7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eff3f7', endColorstr='#1c667a', startColorstr='#1c667a', endColorstr='#eff3f7', GradientType=1);
+	clear: both;	
+}
+.background {
+	background-image: url('../images/comppattern2.png');
+}
+.content {
+	width: 960px;
+	min-height: 839px;
+	margin: auto;
+	padding: 40px 0px;
+}
+.sidebar {
+	width: 250px;
+	float: left;
+	font-family: 'fira_sansbook';
+}
+.sidebar .main_menu {
+	padding: 0;
+	list-style-type: none;
+	background-color: #eff3f7;
+	border-radius: 5px;
+}
+.sidebar .main_menu li {
+	height: 30px;
+	padding: 20px 0px;
+	font-size: 21px;
+	text-indent: 28px;
+}
+.sidebar .main_menu span {
+	display: inline-block;
+	width: 230px;
+	height: 2px;
+	margin-left: 10px;
+	background-color: #3ba8c0;
+}
+.sidebar .main_menu a {
+	color: #959aa8;
+	text-decoration: none;
+}
+.sidebar .main_menu a:hover {
+	color: #3ba8c0;
+}
+.sidebar .contacts {
+	height: 160px;
+	margin-top: 25px;
+	padding: 0;
+	border-radius: 3px;
+	list-style-type: none;
+	background-color: #3ba8c0;
+}
+.sidebar .contacts li {
+	height: 30px;
+	padding-top: 10px;
+	font-size: 21px;
+	color: #fbfcfd;
+	text-indent: 21px;	
+}
+.sidebar .contacts img {
+	float: left;
+	margin-left: 15px;
+}
+.sidebar .contacts li a {
+	display: block;
+	margin-top: 3px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 16px;
+	text-indent: 10px;
+}
+.sidebar .contacts li a:hover {
+	text-decoration: underline;
+}
+.sidebar .contacts .mail {
+	background-color: #41b9d4;
+}
+.sidebar .contacts .tel {
+	background-color: #48cbe8;
+}
+.sidebar .contacts .skype {
+	background-color: #51daf8;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.article {
+	width: 650px;
+	float: right;
+}
+.footer {
+	padding: 38px;
+	font-family: 'fira_sanslight';
+	font-size: 13px;
+	text-align: center;
+}
